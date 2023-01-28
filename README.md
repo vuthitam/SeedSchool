@@ -1,0 +1,2 @@
+# SeedSchool
+School management system
