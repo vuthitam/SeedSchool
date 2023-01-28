@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Dongle:wght@700&family=Neonderthaw&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dongle:wght@700&family=Lato&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dongle:wght@700&family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dongle:wght@700&family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dongle:wght@700&family=Roboto:ital@1&display=swap");
+
+.btnHolder {
+  padding: auto;
+  margin: 20px auto;
+}
+
+.btnMeal {
+  border: 1px solid rgb(152, 187, 99);
+  text-align: center;
+  margin: 7px;
+  height: 40px;
+  width: 100px;
+  font-size: 20px;
+  font-family: "Pacifico", cursive;
+}
+
+.btnMeal :hover {
+  background-color: rgb(152, 187, 99);
+}
+
+.foodList {
+  display: grid;
+  grid-template-columns: 19vw 19vw 19vw 19vw;
+  gap: 2rem;
+  margin: 3rem auto;
+}
+
+.foodList li {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  align-items: center;
+  border-radius: 2rem;
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.foodImg {
+  position: absolute;
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  top: 70px;
+  left: 42px;
+  border: 4px solid rgb(255, 255, 255);
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2), 0 2px 5px 0 rgba(0, 0, 0, 0.19);
+  object-fit: cover;
+}
+
+.title {
+  position: relative;
+  margin-top: 80px;
+  font-size: 30px;
+  font-family: "Pacifico", cursive;
+}
+
+.headerImg {
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+  height: 150px;
+  width: 245px;
+  opacity: 0.9;
+}
+
+.titleContainer {
+  text-align: center;
+}
+
+.description {
+  margin-left: 1rem;
+  margin-top: 10px;
+}
+
+.banner {
+  width: 100%;
+  height: 20vw;
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+}
+
+.deleteBtn {
+  margin-left: 35%;
+  margin-top: 10%;
+  border-radius: 2rem;
+  height: 35px;
+  width: 30%;
+  background: rgb(219, 124, 86);
+  font-weight: bold;
+}

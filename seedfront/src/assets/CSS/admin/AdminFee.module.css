@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Dongle:wght@700&family=Mochiy+Pop+P+One&family=Neonderthaw&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dongle:wght@700&family=Mochiy+Pop+P+One&family=Pacifico&display=swap");
+
+.container {
+  width: 80;
+  background-color: rgb(255, 255, 255);
+  padding: 20px 10vw 20px 10vw;
+}
+
+.title {
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  margin: 30px auto 0px auto;
+  font-size: 36px;
+  font-weight: 700;
+  font-family: "Pacifico", cursive;
+}
+
+.content {
+  padding: 30px;
+  border-radius: 6px;
+  border: 2px solid rgb(187, 187, 187);
+}
+
+.w100 {
+  display: block;
+  width: 100%;
+}
+.w101 {
+  width: 20%;
+  margin-right: 9px;
+  margin-bottom: 12px;
+}
+
+input {
+  height: 32px;
+  margin: 7px 0px;
+  border-radius: 6px;
+  outline: none;
+  border: 1px solid rgb(151, 148, 148);
+  padding-left: 10px;
+}
+
+textarea {
+  margin: 5px 0px;
+  border-radius: 6px;
+  outline: none;
+  border: 1px solid rgb(151, 148, 148);
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.btn {
+  text-align: center;
+  display: block;
+  width: 100px;
+  height: 38px;
+  margin: 30px auto 10px auto;
+  padding: 0;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+  background-color: red;
+}
+
+.btn:hover {
+  opacity: 0.7;
+  background-color: rgb(9, 173, 44);
+}

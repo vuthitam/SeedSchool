@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Dongle:wght@700&family=Neonderthaw&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dongle:wght@700&family=Lato&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dongle:wght@700&family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dongle:wght@700&family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dongle:wght@700&family=Roboto:ital@1&display=swap");
+
+.block1 {
+  margin-bottom: 5px;
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+  display: block;
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 5px;
+}
+
+.weekDay {
+  text-shadow: 2px 0 0 rgb(0, 0, 0), -2px 0 0 rgb(0, 0, 0), 0 2px 0 rgb(0, 0, 0),
+    0 -2px 0 rgb(0, 0, 0), 1px 1px rgb(0, 0, 0), -1px -1px 0 rgb(0, 0, 0),
+    1px -1px 0 rgb(0, 0, 0), -1px 1px 0 rgb(0, 0, 0);
+  font-family: "Pacifico", cursive;
+}
+
+.block1 .price {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 70px 0 67px;
+  left: 50%;
+  height: 217px;
+  display: block;
+  top: 50%;
+  overflow: hidden;
+  margin-top: -108px;
+  margin-left: -104px;
+  font: bold 20px/20px "Open Sans", sans-serif;
+  color: #fff;
+  width: 217px;
+  position: absolute;
+  border: 5px solid #fff;
+  border-radius: 500px;
+}
+
+.block1 .price span + span {
+  padding-top: 14px;
+  font-size: 36px;
+  display: block;
+}
+
+.block1 .price small {
+  font-size: 30px;
+  position: relative;
+  top: 2px;
+}
+
+.block1 .price * {
+  position: relative;
+  z-index: 2;
+}
+
+.block1 .price strong {
+  z-index: 0;
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  border-radius: 500px;
+  opacity: 0;
+  right: 0;
+  height: 100%;
+  transition: 0.5s ease;
+  -o-transition: 0.5s ease;
+  -webkit-transition: 0.5s ease;
+}
+
+.block1:hover .price strong {
+  opacity: 1;
+}
+
+.block1:hover .price {
+  color: #4f4f4f;
+}
+
+.block1 img {
+  transition: 0.5s ease;
+  -o-transition: 0.5s ease;
+  -webkit-transition: 0.5s ease;
+}
+
+.block1.blur img {
+  /* filter: url(../js/blur.svg#blur); */
+  object-fit: cover;
+}
+
+.block1:hover img {
+  -webkit-filter: blur(3px);
+  -moz-filter: blur(3px);
+  -o-filter: blur(3px);
+  -ms-filter: blur(3px);
+  filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius='3');
+  filter: blur(3px);
+}

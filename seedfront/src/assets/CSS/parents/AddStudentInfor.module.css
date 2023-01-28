@@ -1,0 +1,72 @@
+.popup_content {
+  font-family: cursive;
+  width: 99%;
+  height: 100%;
+  border-radius: 6px;
+  padding: 20px;
+}
+
+.inputControl {
+  background: transparent;
+  border-left: 0ch;
+  border-right: 0ch;
+  border-top: 0ch;
+  border-bottom: 1px solid;
+  height: 50px;
+  margin: 5px;
+  font-size: 17px;
+  width: 400px;
+}
+
+:focus {
+  outline: none;
+  border-bottom: 2px solid rgba(78, 78, 255, 0.7);
+}
+
+.flex_container {
+  display: flex;
+}
+
+.addBtn {
+  position: absolute;
+  margin-top: 10px;
+  display: block;
+  width: 100px;
+  height: 40px;
+  border: none;
+  outline: none;
+  border-radius: 25px;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  cursor: pointer;
+  background: linear-gradient(135deg, #3a8ffe 0%, #9658fe 100%);
+  right: 68%;
+}
+
+.formStyle {
+  flex-basis: 500px;
+}
+
+.left input {
+  margin-left: 5%;
+}
+
+.img_place {
+  width: 400px;
+  height: 400px;
+  margin-left: 5%;
+  margin-top: 2%;
+  border-radius: 6px;
+  object-fit: cover;
+  border: 2px solid rgb(219, 217, 217);
+}
+
+.img_place img {
+  width: 100%;
+  height: 100%;
+  border-radius: 6px;
+  object-fit: cover;
+}

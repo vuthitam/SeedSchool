@@ -1,0 +1,134 @@
+.popup_content {
+  font-family: cursive;
+  position: fixed;
+  width: 55%;
+  height: 70%;
+  background: rgb(255, 255, 255);
+  border-radius: 6px;
+  padding: 20px;
+  z-index: 100;
+  top: 10%;
+  left: 30%;
+  border: groove 3px rgb(110, 110, 255, 0.7);
+}
+
+.flex_container {
+  display: flex;
+}
+
+.radioPick {
+  color: #ffffff;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  opacity: 0.9;
+  background-color: #2f956d;
+  font-size: 20px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.inputControl {
+  background: transparent;
+  border-left: 0ch;
+  border-right: 0ch;
+  border-top: 0ch;
+  height: 33px;
+  margin: 5px;
+  font-size: 17px;
+  width: 300px;
+  font-family: cursive;
+  background: rgba(161, 161, 161, 0.158);
+  border-radius: 7px;
+  margin-top: 15px;
+}
+
+.addBtn {
+  position: absolute;
+  margin-bottom: 10px;
+  display: block;
+  width: 100px;
+  height: 40px;
+  border: none;
+  outline: none;
+  border-radius: 25px;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  cursor: pointer;
+  background: linear-gradient(135deg, #3a8ffe 0%, #9658fe 100%);
+  right: 78%;
+}
+
+.cancel__Btn {
+  position: absolute;
+  margin-bottom: 10px;
+  display: block;
+  width: 100px;
+  height: 40px;
+  border: none;
+  outline: none;
+  border-radius: 25px;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  cursor: pointer;
+  background: linear-gradient(135deg, #3a8ffe 0%, #9658fe 100%);
+  right: 58%;
+}
+
+.inputFile {
+  margin-left: 15px;
+}
+.txtDescription {
+  width: 301px;
+  color: rgb(0, 0, 0);
+  background: transparent;
+  border-left: 0ch;
+  border-right: 0ch;
+  border-top: 0ch;
+  outline: none;
+  margin: 5px;
+  font-family: cursive;
+  font-size: 17px;
+  background: rgba(161, 161, 161, 0.158);
+  border-radius: 7px;
+  resize: none;
+}
+
+.txtDescription :focus {
+  outline: none;
+  border-bottom: 2px solid rgba(78, 78, 255, 0.7);
+}
+
+.img_place {
+  width: 95%;
+  height: 40vh;
+  margin-left: 5%;
+  margin-top: 2%;
+  border-radius: 6px;
+  object-fit: cover;
+  border: 2px solid rgb(219, 217, 217);
+}
+
+.img_place img {
+  width: 100%;
+  height: 100%;
+  border-radius: 6px;
+  object-fit: cover;
+}
+
+.fileInput {
+  margin-left: 10%;
+}
+
+.selectDay {
+  font-size: 20px;
+}

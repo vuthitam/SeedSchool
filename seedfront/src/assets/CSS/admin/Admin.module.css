@@ -1,0 +1,58 @@
+.additional {
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+  margin-left: 15%;
+}
+.container {
+  display: flex;
+  overflow: hidden;
+}
+.controller {
+  display: flex;
+  width: 15%;
+  height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  z-index: 1;
+  position: fixed;
+  border-right: 2px solid #d0d0d0;
+}
+
+.controller img {
+  width: 70%;
+  height: auto;
+  margin: 10%;
+  border-radius: 50%;
+}
+.controller h1 {
+  margin-top: 5%;
+  color: #1877f2;
+}
+
+.controller button {
+  border: none;
+  width: 95%;
+  border-radius: 6px;
+  height: 50px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  font-family: "Comfortaa", cursive;
+}
+
+.controller h4:hover {
+  color: #1877f2;
+}
+
+.icon {
+  flex: 1;
+  margin-left: 5%;
+  color: #1877f2;
+}
+.container h4 {
+  flex: 5;
+  margin-right: 10%;
+  font-weight: lighter;
+}

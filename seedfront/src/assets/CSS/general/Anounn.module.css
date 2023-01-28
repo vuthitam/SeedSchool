@@ -1,0 +1,74 @@
+.notification {
+  width: 100%;
+  overflow: hidden;
+}
+
+.btnHolder {
+  padding: auto;
+  margin: 20px auto;
+}
+
+.btnMeal {
+  border: 1px solid rgb(152, 187, 99);
+  text-align: center;
+  margin: 7px;
+  height: 40px;
+  width: 20vw;
+  font-size: 20px;
+}
+
+.add_notification {
+  color: red;
+  display: block;
+  padding-left: 0px;
+  margin-left: 50px;
+  margin-right: 60px;
+  font-size: 20px;
+  border-bottom: 2px solid rgb(85, 68, 68, 0.3);
+  padding-bottom: 8px;
+}
+
+.add_notification:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.add_notification .ti-plus {
+  font-size: 16px;
+}
+
+.notification_body {
+  margin-right: 60px;
+}
+
+.notification_content {
+  display: inline-block;
+  width: 100%;
+  margin: 10px;
+  list-style-type: none;
+  background-color: rgb(48, 30, 30, 0.1);
+  color: #000;
+}
+
+.item {
+  margin: 10px;
+}
+
+.item_content {
+  color: #000;
+  text-decoration: none;
+}
+
+.item_content:hover {
+  opacity: 0.8;
+}
+
+.item_content span {
+  font-weight: 600;
+}
+
+.item_date {
+  font-style: italic;
+  font-size: 12px;
+  margin-bottom: 10px;
+}

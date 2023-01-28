@@ -1,0 +1,90 @@
+.popup {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+.turnOff {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
+
+.popup_content {
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-family: cursive;
+  width: 45%;
+  height: 63%;
+  background-color: rgb(131, 131, 131);
+  border-radius: 6px;
+  background: rgb(255, 255, 255);
+  padding: 20px;
+  z-index: 9;
+  position: fixed;
+  left: 30vw;
+  top: 10vw;
+  border: groove 3px rgb(110, 110, 255, 0.7);
+}
+
+body {
+  background-color: white;
+}
+
+.popup_title {
+  color: rgb(0, 121, 121);
+}
+
+.tieuDeTB {
+  width: 40%;
+  height: 30px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  background: rgba(161, 161, 161, 0.158);
+  border-radius: 7px;
+}
+
+.emailTB {
+  width: 58%;
+  height: 30px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  margin-left: 10px;
+  background: rgba(161, 161, 161, 0.158);
+  border-radius: 7px;
+}
+
+.noiDungTB {
+  width: 100%;
+  height: 160px;
+  resize: none;
+  background: rgba(161, 161, 161, 0.158);
+  border-radius: 3px;
+}
+
+.actor {
+  display: inline;
+}
+
+.them_btn99 {
+  margin-top: 10px;
+  display: block;
+  width: 30%;
+  height: 40px;
+  border: none;
+  outline: none;
+  border-radius: 25px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  cursor: pointer;
+  background: linear-gradient(135deg, #3a8ffe 0%, #9658fe 100%);
+}

@@ -1,0 +1,250 @@
+.black {
+  background-color: rgb(0, 0, 0, 0.3);
+  position: fixed;
+  top: 0;
+  inset: 0;
+  z-index: 1000;
+  display: none;
+  text-align: center;
+}
+
+.history {
+  width: 400px;
+  background-color: #ffffff;
+  margin: 130px auto 0 auto;
+  padding: 20px 0 20px 0;
+  border: 2px solid rgb(87, 57, 57);
+  border-radius: 6px;
+  z-index: 20000;
+}
+
+.title_history {
+  font-family: "Dongle", sans-serif;
+  font-family: "Pacifico", cursive;
+  font-size: 30px;
+  margin: 20px;
+}
+
+.list_history {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+
+.list_history button {
+  margin: 8px;
+  width: 70px;
+  height: 50px;
+  line-height: 1.5;
+  font-weight: 600;
+}
+
+.list_history button:hover {
+  cursor: pointer;
+}
+
+/* start-update */
+
+.black2 {
+  background-color: rgb(0, 0, 0, 0.3);
+  position: fixed;
+  top: 0;
+  inset: 0;
+  z-index: 1000;
+  /* display: none; */
+  text-align: center;
+}
+
+.update {
+  width: 800px;
+  height: 400px;
+  background-color: #ffffff;
+  margin: 120px auto 0 auto;
+  padding: 10px 0 20px 0;
+  border: 2px solid rgb(87, 57, 57);
+  border-radius: 6px;
+  z-index: 20000;
+}
+
+.title_update {
+  font-family: "Dongle", sans-serif;
+  font-family: "Pacifico", cursive;
+  font-size: 30px;
+  margin: 20px;
+}
+
+.date {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 0 5px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.form_update {
+  margin: 30px auto 20px auto;
+}
+
+.ip_update {
+  width: 150px;
+  height: 40px;
+  margin: 2px 0px;
+  font-size: 16px;
+  border-radius: 6px;
+  padding-left: 8px;
+}
+
+.btn_update,
+.btn_out {
+  display: inline-block;
+  width: 100px;
+  height: 36px;
+  background: #ccc;
+  padding-top: 8px;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 20px;
+  border-radius: 8px;
+  border: 1px solid #000000;
+  cursor: pointer;
+}
+
+.btn_update:hover,
+.btn_out:hover {
+  opacity: 0.8;
+}
+
+/* end-update */
+
+.container {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxxjgYrINKiILU-z1ld05Dp3Eetude0W9Myw&usqp=CAU");
+  background-size: 800px;
+  height: 100vh;
+}
+
+.title {
+  display: block;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.class_schedule {
+  font-size: 100px;
+  font-weight: 700;
+  font-family: "Licorice", cursive;
+}
+
+.class_name {
+  font-family: "Prompt", sans-serif;
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+.list {
+  display: block;
+}
+
+table {
+  width: 1000px;
+  text-align: center;
+  margin: auto;
+}
+
+th,
+td {
+  border: 2px solid black;
+  margin: 5px;
+  border-radius: 4px;
+  width: 140px;
+  height: 50px;
+  font-weight: 600;
+}
+
+th {
+  font-size: 24px;
+}
+
+td:first-child {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.bot {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  margin: 30px 10px 20px;
+}
+
+.btn_history {
+  appearance: none;
+  background-color: #ffffff;
+  border-radius: 40em;
+  border-style: none;
+  box-shadow: #adcfff 0 -12px 6px inset;
+  box-sizing: border-box;
+  color: #000000;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system, sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: -0.24px;
+  margin: 0;
+  outline: none;
+  padding: 1rem 1.3rem;
+  quotes: auto;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.btn_history:hover {
+  background-color: #ffc229;
+  box-shadow: #ff6314 0 -6px 8px inset;
+  transform: scale(1.125);
+}
+
+.btn_history:active {
+  transform: scale(1.025);
+}
+
+.btn_add {
+  appearance: none;
+  background-color: #ffffff;
+  border-radius: 40em;
+  border-style: none;
+  box-shadow: #adcfff 0 -12px 6px inset;
+  box-sizing: border-box;
+  color: #000000;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system, sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: -0.24px;
+  margin: 0;
+  outline: none;
+  padding: 1rem 1.3rem;
+  quotes: auto;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.btn_add:hover {
+  background-color: #ffc229;
+  box-shadow: #ff6314 0 -6px 8px inset;
+  transform: scale(1.125);
+}
+
+.btn_add:active {
+  transform: scale(1.025);
+}

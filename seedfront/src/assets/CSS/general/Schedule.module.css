@@ -1,0 +1,139 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxxjgYrINKiILU-z1ld05Dp3Eetude0W9Myw&usqp=CAU");
+  background-size: 800px;
+  height: 100vh;
+}
+
+.title {
+  display: block;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.class_schedule {
+  font-size: 100px;
+  font-weight: 700;
+  font-family: "Licorice", cursive;
+}
+
+.class_name {
+  font-family: "Prompt", sans-serif;
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+.list {
+  display: block;
+}
+
+table {
+  width: 1000px;
+  text-align: center;
+  margin: auto;
+}
+
+th,
+td {
+  border: 2px solid black;
+  margin: 5px;
+  border-radius: 4px;
+  width: 140px;
+  height: 50px;
+  font-weight: 600;
+}
+
+th {
+  font-size: 24px;
+}
+
+td:first-child {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.bot {
+  justify-content: space-between;
+  padding: 20px;
+  margin: 30px 10px 20px;
+  position: absolute;
+  top: 90%;
+}
+
+.btnHistory {
+  appearance: none;
+  background-color: #ffffff;
+  border-radius: 40em;
+  border-style: none;
+  box-shadow: #adcfff 0 -12px 6px inset;
+  box-sizing: border-box;
+  color: #000000;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system, sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: -0.24px;
+  margin: 0;
+  outline: none;
+  padding: 1rem 1.3rem;
+  quotes: auto;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.btnHistory:hover {
+  background-color: #ffc229;
+  box-shadow: #ff6314 0 -6px 8px inset;
+  transform: scale(1.125);
+}
+
+.btnHistory:active {
+  transform: scale(1.025);
+}
+
+.btnUpdate {
+  appearance: none;
+  background-color: #ffffff;
+  border-radius: 40em;
+  border-style: none;
+  box-shadow: #adcfff 0 -12px 6px inset;
+  box-sizing: border-box;
+  color: #000000;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system, sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: -0.24px;
+  margin: 0;
+  outline: none;
+  padding: 1rem 1.3rem;
+  quotes: auto;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin-left: 54vw;
+}
+
+.btnUpdate:hover {
+  background-color: #ffc229;
+  box-shadow: #ff6314 0 -6px 8px inset;
+  transform: scale(1.125);
+}
+
+.btnUpdate:active {
+  transform: scale(1.025);
+}
